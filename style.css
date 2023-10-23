@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Fira Code';
+  src: url('path-to-your-font-folder/FiraCode-Regular.woff2') format('woff2'),
+       url('path-to-your-font-folder/FiraCode-Regular.woff') format('woff');
+}
+
+:root {
+  --bs-primary: #282c33 !important;
+  --bs-text-primary:#abb2bf;
+}
+.text-main{
+  color: var(--white, #FFF) !important;
+}
+.text-clr-secondary{
+  color: var(--bs-text-primary);
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: var(--bs-primary) !important;
+  font-family: 'Fira Code', monospace !important;
+}
+.main-wrapper{
+  flex: 1;
+}
+.left-bar{
+  position: sticky;
+  top: 0px;
+  height: 100%;
+}
+.left-bar svg {
+  color: var(--bs-text-primary);
+  margin: 0px 32px;
+}
+.left-bar-icon {
+  color: var(--bs-text-primary);
+    font-size: 22px;
+    padding: 5px 24px;
+}
+.text-header{
+  font-family: 'Fira Code', monospace;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+}
+.text-hash{
+  font-family: 'Fira Code', monospace;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+}
+.text-hash{
+  color: var(--primary, #C778DD);
+}
+.text-header.active {
+  background-color: #333;
+  color: white;
+}
+.fw-700{
+  font-weight: 700;
+}
+.content-left h3{
+  color: var(--white, #FFF);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.content-left span{
+  color: var(--primary, #C778DD);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.common-text{
+  margin: 0;
+  color: var(--bs-text-primary);
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+.contact-btn{
+  background-color: transparent;
+  font-size: 17px;
+  padding: 8px 16px;
+  gap: 10px;
+  border: 1px solid var(--primary, #C778DD);
+  color: white;
+}
+.contact-btn:hover{
+  box-shadow: 0 0 10px 0 #C778DD inset, 0 0 20px 2px #C778DD;
+  border: 1px solid #C778DD;
+  transition: all .3s ease-in-out;
+}
+.image-bg{
+  width: 100%;
+  padding-top: 22px;
+  height: auto;
+}
+.pro-image-bg img{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+.pro-image-title{
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+}
+.border-pri {
+  border: 1px solid var(--bs-text-primary);
+}
+#top-svg{
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background: #282c33;
+  width: 16px;
+}
+#bottom-svg{
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+  background: #282c33;
+  width: 16px;
+}

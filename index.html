@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arjun Krishnakumar</title>
+  <link rel="icon" type="image/x-icon" href="/images/Logo.png">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="d-flex main-container pl-4">
+    <div class="left-bar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="2" height="191" viewBox="0 0 2 191" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.499995 191L0.500004 0L1.5 4.37114e-08L1.5 191L0.499995 191Z"
+          fill="#ABB2BF" />
+      </svg>
+      <div class="left-bar-icon">
+        <i class="fa-brands fa-github"></i>
+      </div>
+      <div class="left-bar-icon">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <div class="left-bar-icon">
+        <i class="fa-brands fa-google"></i>
+      </div>
+    </div>
+    <div class="main-wrapper">
+      <nav class="navbar navbar-expand-md navbar-dark mt-3">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="d-flex d-flex col-lg-6 col-md-3"> 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12 0.5H8V4.5H4H0V8.5V12.5V16.5H4H8V12.5H12H16V8.5V4.5V0.5H12ZM4 12.5H8V8.5H12V4.5H8V8.5H4V12.5Z"
+                  fill="white" />
+              </svg>
+              <h3 class="text-header text-main fw-700 px-2" onclick="setActive(this)">
+                Arjun
+              </h3>
+            </div>
+            <div class="d-flex px-4">
+              <span class="text-hash">#</span>
+              <h3 class="text-header text-clr-secondary" onclick="setActive(this)">
+                home
+              </h3>
+            </div>
+            <div class="d-flex px-4">
+              <span class="text-hash">#</span>
+              <h3 class="text-header text-clr-secondary" onclick="setActive(this)">
+                works
+              </h3>
+            </div>
+            <div class="d-flex px-4">
+              <span class="text-hash">#</span>
+              <h3 class="text-header text-clr-secondary" onclick="setActive(this)">
+                about-me
+              </h3>
+            </div>
+            <div class="d-flex px-4">
+              <span class="text-hash">#</span>
+              <h3 class="text-header text-clr-secondary" onclick="setActive(this)">
+                contact
+              </h3>
+            </div>
+        </header>
+      </div>
+    </nav>
+      <div class="d-flex justify-content-center main-content pt-5 px-4">
+        <div class="content-left col-6 pt-5">
+          <h3 class="pt-4">Arjun is a <span>web developer</span> and</h3>
+          <h3><span>react developer</span></h3>
+          <p class="pt-3 common-text">He crafts responsive websites where technologies</span>
+          <p class="common-text">meet creativity</p>
+          <div class="pt-5">
+            <button class="contact-btn">Contact me!!</button>
+          </div>
+        </div>
+        <div class="position-relative content-right col-4 p-5">
+          <div class="pt-4">
+            <img class="image-bg" src="./images/Style=Outline.svg" alt="My Happy SVG" />
+          </div>
+          <div class="pro-image-bg">
+            <img src="/images/my-image.png" alt="" srcset="">
+          </div>
+          <div class="pro-image-title border-pri">
+            <span class="common-text">Currently working on web tech</span>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="col-3 align-self-center">
+          <div class="col align-self-center border-pri p-3 position-relative ">
+            <svg id="top-svg" xmlns="http://www.w3.org/2000/svg" width="26" height="21" viewBox="0 0 26 21" fill="none">
+              <path d="M10.56 15.616C10.56 17.0453 10.0373 18.2507 8.992 19.232C7.968 20.2133 6.72 20.704 5.248 20.704C3.73333 20.704 2.47467 20.2133 1.472 19.232C0.490667 18.2507 0 17.0453 0 15.616C0 14.9333 0.096 14.208 0.288 13.44C0.48 12.672 0.864 11.68 1.44 10.464L6.4 0H11.2L8.544 11.584C9.14133 12.0107 9.62133 12.576 9.984 13.28C10.368 13.9627 10.56 14.7413 10.56 15.616ZM24.8 15.616C24.8 17.0453 24.2773 18.2507 23.232 19.232C22.1867 20.2133 20.9387 20.704 19.488 20.704C18.016 20.704 16.768 20.2133 15.744 19.232C14.7413 18.2507 14.24 17.0453 14.24 15.616C14.24 14.9333 14.336 14.208 14.528 13.44C14.72 12.672 15.1147 11.68 15.712 10.464L20.704 0H25.472L22.784 11.584C23.4027 12.0107 23.8933 12.576 24.256 13.28C24.6187 13.9627 24.8 14.7413 24.8 15.616Z" fill="#ABB2BF"/>
+            </svg>
+            <span class="common-text">A machine that turns coffee into code</span>
+            <svg id="bottom-svg" xmlns="http://www.w3.org/2000/svg" width="26" height="21" viewBox="0 0 26 21" fill="none">
+              <path d="M10.56 15.616C10.56 17.0453 10.0373 18.2507 8.992 19.232C7.968 20.2133 6.72 20.704 5.248 20.704C3.73333 20.704 2.47467 20.2133 1.472 19.232C0.490667 18.2507 0 17.0453 0 15.616C0 14.9333 0.096 14.208 0.288 13.44C0.48 12.672 0.864 11.68 1.44 10.464L6.4 0H11.2L8.544 11.584C9.14133 12.0107 9.62133 12.576 9.984 13.28C10.368 13.9627 10.56 14.7413 10.56 15.616ZM24.8 15.616C24.8 17.0453 24.2773 18.2507 23.232 19.232C22.1867 20.2133 20.9387 20.704 19.488 20.704C18.016 20.704 16.768 20.2133 15.744 19.232C14.7413 18.2507 14.24 17.0453 14.24 15.616C14.24 14.9333 14.336 14.208 14.528 13.44C14.72 12.672 15.1147 11.68 15.712 10.464L20.704 0H25.472L22.784 11.584C23.4027 12.0107 23.8933 12.576 24.256 13.28C24.6187 13.9627 24.8 14.7413 24.8 15.616Z" fill="#ABB2BF"/>
+            </svg>
+          </div>
+          <div class="under-quotes border-pri common-text col-5 p-2">
+            <span class="common-text">Dr. Programmer</span>
+          </div>
+        </div>
+        <div>
+          <span>deglfg</span>
+        </div>
+      </div>
+    </div>
+    <!-- main wrapper end -->
+  </div>
+  <script>
+    function setActive(element) {
+      var headings = document.querySelectorAll(".text-header");
+      headings.forEach(function (heading) {
+        heading.classList.remove("active");
+      });
+      element.classList.add("active");
+    }
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
